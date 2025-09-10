@@ -32,7 +32,8 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About',
-        name: 'Lopamudra'
+        name: 'Lopamudra',
+        message: 'This is a sample weather app created by Lopamudra. It relies on third-party weather APIs to fetching the weather information.'
     })
 })
 
